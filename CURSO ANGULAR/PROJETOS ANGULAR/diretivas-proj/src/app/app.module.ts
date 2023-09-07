@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { CompAtributosComponent } from './comp-atributos/comp-atributos.component';
+import { ModuloProjComponent } from './modulo-proj/modulo-proj.component';
+import { InputComponent } from './modulo-proj/input/input.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    CompAtributosComponent
+    CompAtributosComponent,
+    ModuloProjComponent,
+    InputComponent
   ],
   imports: [
     BrowserModule,
