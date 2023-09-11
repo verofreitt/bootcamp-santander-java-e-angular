@@ -1,0 +1,36 @@
+.container__content{
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content__cover > img{
+  border-radius: 5px;
+  width: 800px;
+  min-width: 500px;
+  height: 500px;
+}
+
+.content__description {
+  margin-top: 20px;
+}
+
+.content__description > p {
+  margin-top: 20px;
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(182, 182, 182);
+
+}
+
+.content__description > a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(90, 90, 90);
+}
